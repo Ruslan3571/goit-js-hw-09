@@ -8,11 +8,20 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #fafafa;
-  color: #212121;
+  color: #000000;
   line-height: 1.5;
 }
 
 img {
   display: block;
   max-width: 100%;
+}
+
+.timer {
+  display: flex;
+  margin-top: 30px;
+}
+
+.field {
+  margin-right: 15px;
 }
